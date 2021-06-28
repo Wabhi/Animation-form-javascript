@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ANIMATION FORM</title>
+    <!--cdn link for font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!--external css file-->
+    <link rel="stylesheet" href="/form.css" />
+  </head>
+  <body>
+    <p id="error"></p>
+    <form>
+      <!--Name field........-->
+      <div class="name">
+        <i class="far fa-user"></i>
+        <input type="text" placeholder="Enter your full name" required />
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <!--Email field........-->
+
+      <div class="email innactive">
+        <i class="fas fa-envelope"></i>
+        <input type="Email" placeholder="Enter your email address" required />
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <!--Password field........-->
+
+      <div class="password innactive">
+        <i class="fas fa-key"></i>
+        <input
+          type="password"
+          placeholder="Enter your email password"
+          required
+        />
+        <i class="fas fa-arrow-down"></i>
+      </div>
+      <!--Greeting field........-->
+
+      <div class="thanku innactive">
+        <i class="fas fa-heart"></i>
+        <p>Thank you!</p>
+        <i class="fas fa-heart"></i>
+      </div>
+    </form>
+    <!--external js file-->
+    <script src="/form.js"></script>
+  </body>
+</html>
